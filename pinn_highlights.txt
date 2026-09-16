@@ -1,0 +1,9 @@
+Built a Quantum Physics Simulator from Scratch: Developed a Physics-Informed Neural Network (PINN) in raw PyTorch to simulate how a quantum particle behaves in a harmonic oscillator without using any pre-existing training datasets.
+
+Embedded Real Physics Laws into the Loss Function: Instead of standard pattern matching, used torch.autograd to calculate complex spacetime partial differential equations (the Schrodinger Equation) and force the neural network to obey the laws of quantum mechanics.
+
+Handled Complex Quantum Math: Split the complex-valued wavefunction (psi = u + iv) into separate real and imaginary network outputs, managing deep automatic differentiation graphs (create_graph=True) to track second-order spatial derivatives.
+
+Optimized via Advanced Sampling: Implemented Latin Hypercube Sampling (LHS) to dynamically distribute training coordinates across spacetime, reducing total residual loss down to a highly tight 3.7 x 10^-3.
+
+Proven Stationary State Stability: Created a custom visualization framework to track the probability density over time, successfully demonstrating that the simulated wavefunction maintains quantum conservation laws.

@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Trained model weights (large binary — regenerate with train.py)
+*.pt
+*.pth
+
+# Output figures (regenerate with visualize.py)
+*.png
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Claude Code
+.claude/
